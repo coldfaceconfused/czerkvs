@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CZERKVS — Bouncy Schranz / Industrial Hardcore</title>
+  <meta name="description" content="CZERKVS — DJ. Bouncy schranz i industrial hardcore. Posłuchaj setu, poznaj projekt, napisz w sprawie bookingu.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CZERKVS">
+  <meta property="og:description" content="Bouncy Schranz / Industrial Hardcore">
+  <meta property="og:image" content="assets/img/live-1400.webp">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32'/%3E%3Cpath d='M24 8H8v16h16' fill='none' stroke='%23fff' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/live-1400.webp" imagesrcset="assets/img/live-800.webp 800w, assets/img/live-1400.webp 1400w" imagesizes="(max-width: 700px) 75vh, (max-height: 460px) 100vw, 50vw">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <main id="deck" class="deck">
+
+    <!-- 1 — START -->
+    <section id="start" class="panel hero" aria-label="Start">
+      <div class="hero__photos">
+        <img class="hero__photo hero__photo--live"
+             src="assets/img/live-1400.webp"
+             srcset="assets/img/live-800.webp 800w, assets/img/live-1400.webp 1400w"
+             sizes="(max-width: 700px) 75vh, (max-height: 460px) 100vw, 50vw"
+             alt="CZERKVS w bandanie grający za deckami, zdjęcie z imprezy"
+             fetchpriority="high">
+        <!-- lazy: na mobile ukryte, więc w ogóle się nie pobiera -->
+        <img class="hero__photo hero__photo--portrait"
+             loading="lazy"
+             src="assets/img/portrait-1400.webp"
+             srcset="assets/img/portrait-800.webp 800w, assets/img/portrait-1400.webp 1400w"
+             sizes="(max-width: 700px) 75vh, (max-height: 460px) 100vw, 50vw"
+             alt="Portret CZERKVS w czarnej koszulce">
+      </div>
+      <div class="hero__title">
+        <h1 class="wordmark">CZERKVS</h1>
+        <p class="hero__tags">
+          <span>BOUNCY SCHRANZ</span>
+          <span>INDUSTRIAL HARDCORE</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- 2 — MUZYKA -->
+    <section id="muzyka" class="panel music" aria-labelledby="muzyka-title">
+      <div class="panel__inner music__inner">
+        <header class="panel__head">
+          <h2 id="muzyka-title" class="panel__title">Muzyka</h2>
+          <span class="panel__index" aria-hidden="true">02/04</span>
+        </header>
+        <div class="player">
+          <iframe
+            title="Stream #001 | FLOWSTATE LIVE | Czerkvs | Hard Bounce — odtwarzacz SoundCloud"
+            allow="autoplay; encrypted-media"
+            loading="lazy"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2380395885&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+        </div>
+        <nav class="links" aria-label="Profile">
+          <a class="link" href="https://soundcloud.com/czerkvs" target="_blank" rel="noopener">SoundCloud <span aria-hidden="true">↗</span></a>
+          <a class="link" href="https://www.instagram.com/czerkvs/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- 3 — O MNIE -->
+    <section id="o-mnie" class="panel about" aria-labelledby="o-mnie-title">
+      <div class="panel__inner about__inner">
+        <header class="panel__head">
+          <h2 id="o-mnie-title" class="panel__title">O mnie</h2>
+          <span class="panel__index" aria-hidden="true">03/04</span>
+        </header>
+        <div class="about__body">
+          <p class="about__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          <div class="about__text">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 — KONTAKT -->
+    <section id="kontakt" class="panel contact" aria-labelledby="kontakt-title">
+      <div class="panel__inner contact__inner">
+        <header class="panel__head">
+          <h2 id="kontakt-title" class="panel__title">Kontakt</h2>
+          <span class="panel__index" aria-hidden="true">04/04</span>
+        </header>
+        <div class="contact__body">
+          <p class="contact__label">Booking</p>
+          <!-- PLACEHOLDER: wstaw prawdziwy adres w obu miejscach (href + tekst) -->
+          <a class="contact__mail" href="mailto:booking@example.com">booking@example.com</a>
+          <p class="contact__dm">Albo DM: <a href="https://www.instagram.com/czerkvs/" target="_blank" rel="noopener">@czerkvs</a></p>
+        </div>
+        <footer class="contact__foot">
+          <span>© <span id="year">2026</span> CZERKVS</span>
+          <a href="#start">Na górę ↑</a>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pasek postępu: 4 segmenty, biały blok pokazuje aktualną sekcję -->
+  <nav id="rail" class="rail" aria-label="Sekcje strony">
+    <span class="rail__marker" aria-hidden="true"></span>
+    <a class="rail__seg" href="#start" aria-label="1: Start"></a>
+    <a class="rail__seg" href="#muzyka" aria-label="2: Muzyka"></a>
+    <a class="rail__seg" href="#o-mnie" aria-label="3: O mnie"></a>
+    <a class="rail__seg" href="#kontakt" aria-label="4: Kontakt"></a>
+  </nav>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

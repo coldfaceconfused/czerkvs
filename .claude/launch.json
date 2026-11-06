@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "czerkvs",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8044", "--directory", "code"],
+      "port": 8044
+    }
+  ]
+}
