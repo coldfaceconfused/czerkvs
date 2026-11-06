@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Lokalna konfiguracja edytora/podglądu
+.claude/
